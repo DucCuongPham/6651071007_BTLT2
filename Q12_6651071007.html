@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>Phiếu tham gia đăng ký chương trình khuyến mãi</title>
+</head>
+<body>
+    <h1 style="text-align:center">
+        Phiếu tham gia đăng ký chương trình khuyến mãi
+    </h1>
+
+    <form method="post">
+        <table border="1">
+            <tr>
+                <td>
+                    <div id="lblHoTen">Họ và tên:</div>
+                </td>
+                <td>
+                    <input type="text" id="hoten" name="hoten" size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="lblDiaChi">Địa chỉ:</div>
+                </td>
+                <td>
+                    <input type="text" id="diachi" name="diachi" size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="lblDienThoai">Số điện thoại:</div>
+                </td>
+                <td>
+                    <input type="text" id="dienthoai" name="dienthoai" size="20">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="lblPhai">Phái:</div>
+                </td>
+                <td>
+                    <input type="radio"
+                           id="nam"
+                           name="phai"
+                           value="Nam"
+                           checked> Nam
+
+                    <input type="radio"
+                           id="nu"
+                           name="phai"
+                           value="Nữ"> Nữ
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="lblNgheNghiep">Nghề nghiệp:</div>
+                </td>
+                <td>
+                    <select id="nghenghiep" name="nghenghiep">
+                        <option value="Bác sĩ">Bác sĩ</option>
+                        <option value="Kĩ sư">Kĩ sư</option>
+                        <option value="Giáo viên">Giáo viên</option>
+                        <option value="Khác">Khác</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="lblSanPham">Chọn sản phẩm tham gia:</div>
+                </td>
+                <td>
+                    <select id="sanpham"
+                            name="sanpham"
+                            size="4"
+                            multiple>
+                        <option value="Kem đánh răng">Kem đánh răng</option>
+                        <option value="Bột giặt">Bột giặt</option>
+                        <option value="Dầu gội đầu">Dầu gội đầu</option>
+                        <option value="Sữa tắm">Sữa tắm</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="lblSoNguoi">Dự đoán số người tham gia:</div>
+                </td>
+                <td>
+                    <input type="text"
+                           id="songuoi"
+                           name="songuoi"
+                           size="15">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center">
+                    <input type="button"
+                           id="btnDongY"
+                           value="Đồng ý">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
